@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Filtered logger."""
+import re
+from typing import List
 
+def filter_datum() -> str:
+    """Filter datum."""
+    pass
 
 
 if __name__ == "__main__":
