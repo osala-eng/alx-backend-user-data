@@ -3,8 +3,16 @@
 import re
 from typing import List
 
-def filter_datum() -> str:
-    """Filter datum."""
+def filter_datum(
+        fileds: List[str],
+        redaction: str,
+        message: List[str],
+        separator: str
+    ) -> str:
+    """
+    Filter datum - use a regex to replace occurrences of certain
+    field values.
+    """
     pass
 
 
