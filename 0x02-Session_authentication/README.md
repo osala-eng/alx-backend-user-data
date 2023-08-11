@@ -1,1 +1,1 @@
-# Sessioni authentication
+# Basic authentication
